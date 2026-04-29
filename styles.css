@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f8f4;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2e7d32;
+    padding: 10px 20px;
+}
+
+.nav-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.agri {
+    color: yellow;
+}
+
+.harvest {
+    color: white;
+}
+
+.nav-images img {
+    width: 50px;
+    height: 35px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/* Home */
+.home {
+    height: 70vh;
+    background: url(harvestar.jpg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+/* Gallery */
+.gallery {
+    text-align: center;
+    padding: 30px;
+}
+
+.crop-gallery img {
+    width: 220px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Sections */
+.info, .calculator, .contact {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+/* Calculator */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

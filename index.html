@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgriHarvest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav-title">
+        <span class="agri">Agri</span><span class="harvest">Harvest</span>
+    </div>
+
+    <div class="nav-images">
+        <img src="wheat.jpg">
+        <img src="rice.jpg">
+        <img src="maize.jpg">
+    </div>
+</nav>
+
+<!-- Home -->
+<header class="home">
+    <div class="overlay">
+        <h1>
+            <span class="agri">Agri</span><span class="harvest">Harvest</span>
+        </h1>
+        <p>Agricultural Yield & Loss Management</p>
+        <p class="dev">Developed by <strong>Raf Rafin Raad</strong></p>
+    </div>
+</header>
+
+<!-- Crop Images -->
+<section class="gallery">
+    <h2>Major Crops</h2>
+    <div class="crop-gallery">
+        <img src="wheat.jpg">
+        <img src="rice.jpg">
+        <img src="maize.jpg">
+    </div>
+</section>
+
+<!-- Info -->
+<section class="info">
+    <h2>Crop Yield & Losses</h2>
+
+    <h3>Crop Yield</h3>
+    <ul>
+        <li>Depends on soil fertility and irrigation</li>
+        <li>Improved seeds increase production</li>
+        <li>Proper fertilizer boosts growth</li>
+        <li>Modern techniques improve efficiency</li>
+    </ul>
+
+    <h3>Crop Losses</h3>
+    <ul>
+        <li>Pests and diseases damage crops</li>
+        <li>Flood and drought cause major losses</li>
+        <li>Improper harvesting leads to wastage</li>
+        <li>Poor storage increases loss</li>
+    </ul>
+
+    <h3>Minimizing Losses</h3>
+    <ul>
+        <li>Use pest-resistant seeds</li>
+        <li>Apply proper irrigation methods</li>
+        <li>Harvest crops at the right time</li>
+        <li>Improve storage facilities</li>
+    </ul>
+</section>
+
+<!-- Calculator -->
+<section class="calculator">
+    <h2>Yield Calculator</h2>
+
+    <label>Land Area (acres)</label>
+    <input type="number" id="area">
+
+    <label>Yield per Acre (kg)</label>
+    <input type="number" id="yield">
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <h2>Contact Info</h2>
+    <p><strong>Developer:</strong> Raf Rafin Raad</p>
+    <p><strong>Email:</strong> agriharvest@example.com</p>
+    <p><strong>Phone:</strong> +880 1XXXXXXXXX</p>
+</section>
+
+<footer>
+    <p>© 2026 AgriHarvest | Raf Rafin Raad</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
